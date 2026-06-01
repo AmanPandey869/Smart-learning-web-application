@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://smart-learning-web-application.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
